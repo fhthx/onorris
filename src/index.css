@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Multivac Ghost";
+  src:
+    url("./assets/fonts/multivac/Multivac-Ghost.woff2") format("woff2"),
+    url("./assets/fonts/multivac/Multivac-Ghost.woff") format("woff"),
+    url("./assets/fonts/multivac/multivac-ghost.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Multivac Interference";
+  src: url("./assets/fonts/multivac/multivac-interference.ttf") format("truetype");
+  font-display: swap;
+}
+
+@theme {
+  --font-display: "Multivac Ghost", system-ui, sans-serif;
+  --font-display-alt: "Multivac Interference", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
